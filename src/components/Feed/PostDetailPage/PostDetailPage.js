@@ -5,7 +5,7 @@ Modal.setAppElement(document.getElementById("root"))
 
 function PostDetailPage({ isPostDetailModal, onClose, feed ,handleAddComment,newComment,setNewComment,updateNewComment}) {
     const [comments, setComments] = useState([])
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     useEffect(() => {
         const fetchComments = async () => {
             if (isPostDetailModal) {
