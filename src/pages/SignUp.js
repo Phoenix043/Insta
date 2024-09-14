@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import GoogleLoginButton from "../components/GoogleLogin/GoogleLoginButton";
 
-const API_URL =`https://instagram-41d8.onrender.com`
+const API_URL =`https://bedecked-octagonal-cave.glitch.me`
 
 
 
