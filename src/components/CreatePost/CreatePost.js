@@ -7,7 +7,7 @@ import { supabase } from "../../services/supabaseClient";
 Modal.setAppElement(document.getElementById("root"))
 
 const CreatePost = ({ closeModal,updateNewPost }) => {
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [selectedImage, setSelectedImage] = useState(null)
     const [caption, setCaption] = useState('')
     const [hashtag, setHashtag] = useState('')
