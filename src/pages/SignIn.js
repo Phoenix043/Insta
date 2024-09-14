@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Link ,useNavigate} from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-const API_URL =`https://instagram-41d8.onrender.com`
+const API_URL =`https://bedecked-octagonal-cave.glitch.me`
 
 export default function SignIn() {
     const navigate = useNavigate()
