@@ -3,7 +3,7 @@ import FeedCard from "./FeedCard/FeedCard";
 import UserSearch from "../UserSearch/UserSearch";
 
 const Feed = ({ newPost, updateNewPost }) => {
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [feeds, setFeeds] = useState([]);
     const [currentUserId, setCurrentUserId] = useState(null);
     const [page, setPage] = useState(1);
