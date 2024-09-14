@@ -7,7 +7,7 @@ import { useAuth } from "../../context/AuthContext";
 
 const GoogleLoginButton = () => {
     const {login} = useAuth()
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const navigate = useNavigate()
 
     const handleGoogleLogin = async (credentialResponse) => {
