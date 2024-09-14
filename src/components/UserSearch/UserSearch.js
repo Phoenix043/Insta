@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 
 export default function UserSearch() {
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [query, setQuery] = useState("");
     const [results, setResults] = useState([]);
     const [loading, setLoading] = useState(false);
