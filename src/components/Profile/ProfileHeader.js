@@ -6,7 +6,7 @@ const ProfileHeader = ({ username, postCount, user, updateNewPost }) => {
     console.log(user);
     const currentUserId = parseInt(localStorage.getItem("id"))
     const [isFollowing, setIsFollowing] = useState(user.followers.some(follower => follower.id === currentUserId))
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [showProfilePicModal, setShowProfilePicModal] = useState(false)
     const openProfilePicModal = () => {
         if (user.id === currentUserId) { setShowProfilePicModal(true) }
