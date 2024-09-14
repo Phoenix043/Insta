@@ -6,7 +6,7 @@ import { useOutletContext,useParams } from "react-router-dom";
 
 const Profile = () => {
     const {username} = useParams()
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [profileData, setProfileData] = useState()
     const {newPost,updateNewPost} = useOutletContext()
 
