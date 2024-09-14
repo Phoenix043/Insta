@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import FeedCard from "./FeedCard/FeedCard";
 
 const MyFollowingFeed = ({ newPost, updateNewPost }) => {
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [feeds, setFeeds] = useState([]);
     const [currentUserId, setCurrentUserId] = useState(null)
     useEffect(() => {
