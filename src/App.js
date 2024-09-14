@@ -42,7 +42,7 @@ function App() {
 
   return (
     <AuthProvider>
-      <GoogleOAuthProvider  clientId={clientId}>
+      <GoogleOAuthProvider  clientId={clientId}||'185580875945-uh38pe0b1lbii27cgd8gmmjd8btunhdf.apps.googleusercontent.com'>
         <RoutesComponent></RoutesComponent>
       </GoogleOAuthProvider>;
 
