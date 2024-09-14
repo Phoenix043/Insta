@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function CompleteProfile() {
     const navigate = useNavigate()
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [username, setUsername] = useState("")
     const handleSubmit = async (e) => {
         e.preventDefault()
