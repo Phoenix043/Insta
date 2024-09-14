@@ -8,7 +8,7 @@ const FeedCard = ({ feed, onLike, onUnlike, currentUserId, updateNewPost }) => {
     const [newComment, setNewComment] = useState('')
     const timeAgo = formatDistanceToNow(new Date(feed.time), { addSuffix: true });
     const isLikedByCurrentUser = feed.likedByUserIds.includes(currentUserId);
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [isPostDetailModal, setIsPostDetailModal] = useState(false);
     const [updateNewComment , setUpdateNewcomment] = useState(false);
     const updateCommentList = ()=>{
