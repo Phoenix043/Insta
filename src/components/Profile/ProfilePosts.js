@@ -4,7 +4,7 @@ import DeletePost from "../DeletePostModal/DeletePostModal";
 
 
 const ProfilePosts = ({ posts, updateNewPost, user }) => {
-    const API_URL =`https://instagram-41d8.onrender.com`
+    const API_URL =`https://bedecked-octagonal-cave.glitch.me`
     const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
     const [selectedPost, setSelectedPost] = useState("")
     const openDeleteModal = () => setIsDeleteModalOpen(true)
